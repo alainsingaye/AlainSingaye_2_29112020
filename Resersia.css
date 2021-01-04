@@ -1,0 +1,359 @@
+
+
+
+#conteneur 
+{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+nav ul
+{
+	list-style-type: none;
+  display: flex;
+  
+
+}
+
+nav li
+
+{
+
+	margin-right: 65px;
+
+}
+
+nav a
+
+{
+
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+	
+
+p
+
+{
+
+	font-family: 'Raleway', sans-serif;
+
+}
+
+/*a:visited  Quand le visiteur a déjà vu la page concernée 
+{
+    color: #AAA; /* Appliquer une couleur grise 
+}
+*/
+.topnav .search-container button {
+  padding: 8px;
+  margin-top: 4px;
+  margin-right: 16px;
+  background: #0065FC;
+  color: #FFFFFF;
+  font-size: 17px;
+  border: none;
+  border-top-left-radius: 4em;
+  border-top-right-radius: 10em 44em;
+  border-bottom-right-radius: 9em 44em;
+  border-bottom-left-radius: 4em;
+  cursor: pointer;
+}
+
+.search-container i.fas {
+
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px ;
+  padding: 0.5em 0.6em;
+  background-color: rgb(235, 233, 233);
+
+
+}
+
+input {
+
+	
+	display: inline-block;
+    width: auto;
+    vertical-align: middle;
+	
+  } 
+  
+ 
+
+  .filter ul {
+
+    list-style-type: none;
+    display: flex;
+    
+   
+  
+  }
+  
+  .filter li{
+  
+    margin-right: 75px;
+    border: 2px solid grey;
+    border-radius: 25px;
+    padding: 20px;
+    width:auto;
+    height:auto;
+
+  }
+
+  .filter li  i {
+
+    border-radius: 50%;
+
+
+
+  }
+
+  .filter p{
+
+    margin-right:75px
+  }
+  
+  
+ .filter i.fas {
+
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px ;
+  padding: 0.5em 0.6em;
+  color : #0065FC;
+  background-color:  #97bdf7;
+
+  
+
+ }
+
+ .info i.fas {
+  color: #0065FC;
+  
+
+ }
+
+
+
+  
+
+  main {
+
+    display: flex;
+    flex-wrap: wrap;
+    
+  
+  }
+
+  
+
+
+  .container{
+
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+    
+}
+
+
+
+article img {
+
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  height: 120px;
+  object-fit: cover;
+  
+
+
+}
+.herbegements article {
+
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 280px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  box-shadow: 0 0 14px black;
+}
+
+article .texte i {
+
+  color: #0065FC;
+
+
+}
+
+.titre i.fas{
+
+  margin-left: 100px;
+
+  
+}
+
+.populaires article {
+
+  display: flex;
+ 
+  height:140px;
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 280px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  box-shadow: 0 0 14px black;
+}
+ 
+.populaires article img {
+
+  border-radius: 25px 0px 0px 25px;
+  height: 100%;
+  width: 120px;
+}
+
+
+ main section {
+
+
+ background-color:  #F2F2F2;
+ margin: 1rem;
+ padding: 2rem;
+  
+}
+
+
+.activites {
+
+
+background-color: white;
+ 
+
+}
+
+
+
+.activites article {
+
+
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 280px;
+  margin-right: 40px;
+  margin-bottom: 40px;
+  background-color: white;
+  box-shadow: 0 0 14px black;
+}
+
+.port article img{
+
+  border-radius: 25px 45px 0px 25px;
+  height : 400px;
+
+  
+}
+
+.mer {
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 40px;
+
+}
+  
+.parc article img {
+
+  border-radius: 25px 45px 0px 25px;
+  height: 400px;
+  
+
+}
+
+.parc {
+
+background-color: white;
+ 
+
+}
+
+.monuments {
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 40px;
+
+}
+
+.container2 {
+
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+ 
+  
+  
+
+}
+
+footer{ 
+
+  
+  display: flex;
+  flex-direction: row;
+  background-color: #F2F2F2;
+  align-content: space-between;
+  list-style-type: none;
+  
+  
+
+}
+
+footer section li {
+
+  list-style-type: none;
+  margin-bottom: 10px;
+  
+  
+}
+
+footer section ul {
+
+  margin-right: 205px;
+}
+
+footer section li a {
+
+  text-decoration: none;
+
+}
+
+@media screen and (max-width: 1280px)
+
+
+
+@media all and (max-device-width: 480px)
+{
+    /* Pour les mobiles  */
+}
+
+
+/* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
+@media all and (min-width: 1024px) and (max-width: 1280px)
+
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
