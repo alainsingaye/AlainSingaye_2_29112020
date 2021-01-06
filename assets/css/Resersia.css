@@ -1,0 +1,59 @@
+#conteneur 
+{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+nav ul
+{
+	list-style-type: none;
+	display: flex;
+
+}
+
+nav li
+
+{
+
+	margin-right: 15px;
+
+}
+
+nav a
+
+{
+
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+	
+
+p
+
+{
+
+	font-family: 'Raleway', sans-serif;
+
+}
+
+a:visited /* Quand le visiteur a déjà vu la page concernée */
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}
+
+.topnav .search-container button {
+  padding: 6px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #1a52ff;
+  color: #FFFFFF;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
