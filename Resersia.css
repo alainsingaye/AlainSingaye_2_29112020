@@ -1,6 +1,3 @@
-
-
-
 #conteneur 
 {
 
@@ -53,30 +50,40 @@ p
 */
 .topnav .search-container button {
   padding: 8px;
-  margin-top: 4px;
-  margin-right: 16px;
+  margin: 0;
   background: #0065FC;
   color: #FFFFFF;
   font-size: 17px;
   border: none;
-  border-top-left-radius: 4em;
-  border-top-right-radius: 10em 44em;
-  border-bottom-right-radius: 9em 44em;
-  border-bottom-left-radius: 4em;
+  border-radius: 0 0.5em 0.5em 0;
   cursor: pointer;
 }
 
-.search-container i.fas {
+.search-icon  {
 
   display: inline-block;
-  border-radius: 60px;
-  box-shadow: 0px 0px 2px ;
-  padding: 0.5em 0.6em;
+  border-radius: 0.5em 0 0 0.5em ;
+  padding: 1rem ;
   background-color: rgb(235, 233, 233);
+  
 
 
 }
 
+.search-input  {
+
+  display: flex;
+  
+ 
+}
+
+.search-input input {
+
+  border: 2px solid #F2F2F2;
+  padding: 1rem;
+
+
+}
 input {
 
 	
@@ -99,22 +106,16 @@ input {
   
   .filter li{
   
-    margin-right: 75px;
-    border: 2px solid grey;
-    border-radius: 25px;
-    padding: 20px;
+    margin-right: 100px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    padding-right: 0.5em ;
     width:auto;
     height:auto;
 
   }
 
-  .filter li  i {
-
-    border-radius: 50%;
-
-
-
-  }
+  
 
   .filter p{
 
@@ -127,9 +128,10 @@ input {
   display: inline-block;
   border-radius: 60px;
   box-shadow: 0px 0px 2px ;
-  padding: 0.5em 0.6em;
+  padding: 1rem;
   color : #0065FC;
-  background-color:  #97bdf7;
+  background-color:  #DEEBFF;
+  
 
   
 
@@ -165,7 +167,10 @@ input {
     
 }
 
+.texte {
 
+  margin-left: 12px;
+}
 
 article img {
 
@@ -270,6 +275,7 @@ background-color: white;
   flex-direction: column;
   background-color: white;
   margin-bottom: 40px;
+  margin-left: 45px;
 
 }
   
@@ -284,6 +290,7 @@ background-color: white;
 .parc {
 
 background-color: white;
+margin-left: 45px;
  
 
 }
@@ -294,6 +301,7 @@ background-color: white;
   flex-direction: column;
   background-color: white;
   margin-bottom: 40px;
+  margin-left: 45px;
 
 }
 
@@ -332,16 +340,23 @@ footer section li {
 
 footer section ul {
 
-  margin-right: 205px;
+  margin-right:305px;
 }
 
 footer section li a {
 
   text-decoration: none;
+  color:black;
 
 }
 
 @media screen and (max-width: 1280px)
+
+{
+
+  
+
+}
 
 
 
@@ -354,6 +369,17 @@ footer section li a {
 /* Sur tous types d'écran, quand la largeur de la fenêtre est comprise entre 1024px et 1280px */
 @media all and (min-width: 1024px) and (max-width: 1280px)
 
+{
+
+
+
+}
+
 
 /* Sur tous types d'écrans orientés verticalement */
 @media all and (orientation: portrait)
+
+{
+
+  
+}
