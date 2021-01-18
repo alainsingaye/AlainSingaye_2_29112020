@@ -1,0 +1,523 @@
+#conteneur 
+{
+
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+
+
+}
+
+nav ul
+{
+	list-style-type: none;
+  display: flex;
+  
+
+}
+
+nav li
+
+{
+
+	margin-right: 65px;
+
+}
+
+nav a
+
+{
+
+	font-family: 'Raleway', sans-serif;
+	text-decoration: none;
+}
+	
+
+p
+
+{
+
+	font-family: 'Raleway', sans-serif;
+
+}
+
+.conteneur a:visited 
+{
+    color: #AAA; /* Appliquer une couleur grise */
+}
+
+.topnav .search-container button {
+  padding: 8px;
+  margin: 0;
+  background: #0065FC;
+  color: #FFFFFF;
+  font-size: 17px;
+  border: none;
+  border-radius: 0 0.5em 0.5em 0;
+  cursor: pointer;
+}
+
+.search-icon  {
+
+  display: inline-block;
+  border-radius: 0.5em 0 0 0.5em ;
+  padding: 1rem ;
+  background-color: rgb(235, 233, 233);
+  
+
+
+}
+
+.search-input  {
+
+  display: flex;
+  
+ 
+}
+
+.search-input input {
+
+  border: 2px solid #F2F2F2;
+  padding: 1rem;
+
+
+}
+input {
+
+	
+	display: inline-block;
+    width: auto;
+    vertical-align: middle;
+	
+  } 
+  
+ .filter  {
+
+  Display : flex;
+  align-items: baseline;
+  
+
+ }
+
+
+
+  .filter ul {
+
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    
+   
+  
+  }
+  
+  .filter li{
+
+  
+    margin-right: 30px;
+    border: 2px solid #F2F2F2;
+    border-radius: 50px;
+    padding-right: 2em ;
+    width:auto;
+    height:auto;
+
+  }
+
+  
+
+  .filter h3{
+
+    margin-right:100px
+  }
+  
+  
+ .filter i.fas {
+
+  display: inline-block;
+  border-radius: 60px;
+  box-shadow: 0px 0px 2px ;
+  padding: 1rem;
+  color : #0065FC;
+  background-color:  #DEEBFF;
+  
+
+  
+
+ }
+
+ .info i.fas {
+  color: #0065FC;
+  
+
+ }
+
+
+
+  
+
+ .herbegements, .populaires {
+
+
+  background-color:  #F2F2F2;
+  margin: 1rem;
+  padding: 2rem;
+   
+ }
+ 
+
+
+  
+
+ .enligne {
+
+  display : flex;
+  justify-content: space-between;
+}
+
+
+
+  .container{
+
+    display: flex;
+    flex-wrap: wrap;
+    overflow: hidden;
+    
+    
+}
+
+.texte {
+
+  margin-left: 12px;
+}
+
+article img {
+
+  width: 100%;
+  border-radius: 25px 25px 0 0;
+  height: 120px;
+  object-fit: cover;
+  
+
+
+}
+
+
+
+
+.herbegements article {
+
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 240px;
+  margin: 20px;
+  
+  box-shadow: 0 0 14px black;
+}
+
+article .texte i {
+
+  color: #0065FC;
+
+
+}
+
+.titre i.fas{
+
+  margin-left: 100px;
+
+  
+}
+
+.populaires article {
+
+  display: flex;
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 280px;
+  margin: 20px;
+  
+  box-shadow: 0 0 14px black;
+}
+ 
+.populaires article img {
+
+  border-radius: 25px 0px 0px 25px;
+  height: 100%;
+  width: 120px;
+}
+
+
+.activites {
+
+
+background-color: white;
+ 
+
+}
+
+
+
+.activites article {
+
+
+  border-radius: 25px;
+  border: 2px solid white;
+  width: 240px;
+  margin: 20px;
+  
+  box-shadow: 0 0 14px black;
+}
+
+.port article img{
+
+  border-radius: 25px 45px 0px 25px;
+  height : 400px;
+
+  
+}
+
+.mer {
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 40px;
+  margin-left: 45px;
+
+}
+  
+.parc article img {
+
+  border-radius: 25px 45px 0px 25px;
+  height: 400px;
+  
+
+}
+
+.parc {
+
+background-color: white;
+margin-left: 45px;
+ 
+
+}
+
+.monuments {
+
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  margin-bottom: 40px;
+  margin-left: 45px;
+
+}
+
+.container2 {
+
+  display: flex;
+  flex-wrap: wrap;
+  
+  
+ 
+  
+  
+
+}
+
+.titres {
+
+margin-left : 40px;
+
+}
+
+footer { 
+
+  
+  display: flex;
+  flex-direction: row;
+  background-color: #F2F2F2;
+  align-content: space-between;
+  list-style-type: none;
+  
+  
+
+}
+
+footer section li {
+
+  list-style-type: none;
+  margin-bottom: 10px;
+  
+  
+}
+
+footer section ul {
+
+  margin-right:305px;
+}
+
+footer section li a {
+
+  text-decoration: none;
+  color:black;
+
+}
+
+@media screen and (max-width: 1280px)
+
+{
+
+  
+  .search-icon  {
+  
+    display: inline-block;
+    
+    
+    
+    
+  
+  
+  }
+  
+  .search-input  {
+  
+    display: flex;
+    
+   
+  }
+  
+ 
+  input {
+  
+    
+    display: inline-block;
+      width: auto;
+     
+    
+    } 
+    
+   
+  
+    .filter ul {
+  
+      
+      display: flex;
+      
+     
+    
+    }
+    
+    .filter li{
+    
+     
+      
+      width:auto;
+      height:auto;
+  
+    }
+  
+    
+  
+    .filter p{
+  
+      margin-right:auto;
+    }
+    
+    
+   .filter i.fas {
+  
+    display: inline-block;
+   
+    
+    
+  
+    
+  
+  }
+ 
+  
+  article .texte i {
+  
+    color: #0065FC;
+  
+  
+  }
+  
+  .titre i.fas{
+  
+    margin-left: 100px;
+  
+    
+  }
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  footer section li {
+
+    
+    margin-bottom: auto;
+    
+    
+  }
+  
+  footer section ul {
+  
+    margin-right:auto;
+  }
+ 
+
+}
+
+@media screen and (max-width: 1099px)
+
+{
+
+  .enligne {
+
+    flex-direction: column-reverse;
+
+  }
+}
+
+@media screen and (max-width: 1286px)
+
+{
+
+  .activites {
+
+    flex-direction: column-reverse;
+    
+  }
+}
+
+@media all and (max-width: 480px)
+{
+  
+   
+      
+}
+
+
+
+
+
+/* Sur tous types d'écrans orientés verticalement */
+@media all and (orientation: portrait)
+
+{
+
+  
+}
