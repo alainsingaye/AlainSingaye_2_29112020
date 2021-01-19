@@ -515,7 +515,7 @@ footer section li a {
       
 }
 
-.activites {
+.activites article {
 
   flex-direction: column-reverse;
 
@@ -523,7 +523,7 @@ footer section li a {
 
 }
 
-.herbegements {
+.herbegements article {
 
 
   flex-direction: column-reverse;
