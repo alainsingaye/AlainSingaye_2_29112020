@@ -506,7 +506,11 @@ footer section li a {
 @media all and (max-width: 480px)
 {
   
-   
+    
+  .enligne {
+
+    flex-direction: column-reverse;
+      
       
 }
 
