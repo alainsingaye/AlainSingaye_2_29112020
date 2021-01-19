@@ -503,7 +503,7 @@ footer section li a {
   }
 }
 
-@media all and (max-width: 480px)
+@media all and (max-width: 750px)
 {
   
   .enligne {
