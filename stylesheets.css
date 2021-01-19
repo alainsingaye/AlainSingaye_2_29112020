@@ -503,7 +503,7 @@ footer section li a {
   }
 }
 
-@media all and (max-width: 750px)
+@media all and (max-width: 480px)
 {
   
   .enligne {
@@ -523,7 +523,7 @@ footer section li a {
 
 }
 
-.hebergements {
+.herbegements {
 
 
   flex-direction: column-reverse;
