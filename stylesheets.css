@@ -506,12 +506,38 @@ footer section li a {
 @media all and (max-width: 480px)
 {
   
-    
   .enligne {
 
     flex-direction: column-reverse;
+
+    
       
       
+}
+
+.activites {
+
+  flex-direction: column-reverse;
+
+
+
+}
+
+.herbegements {
+
+
+  flex-direction: column-reverse;
+}
+
+nav ul
+{
+	
+  
+  flex-direction: row-reverse;
+  
+
+}
+
 }
 
 
