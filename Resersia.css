@@ -10,6 +10,14 @@
 
 }
 
+
+nav {
+  display: block;
+
+  margin-left: auto;
+}
+
+
 nav ul
 {
 	list-style-type: none;
@@ -18,13 +26,34 @@ nav ul
 
 }
 
+ul {
+
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.inscription a {
+  color: #0065FC;
+  font-weight: bold;
+  text-decoration: none;
+}
 nav li
 
 {
 
-	margin-right: 65px;
+  margin-right: 1.875rem;
 
 }
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+
 
 nav a
 
@@ -92,67 +121,149 @@ input {
     vertical-align: middle;
 	
   } 
-  
- .filter  {
 
-  Display : flex;
-  align-items: baseline;
-  
-
- }
-
-
-
-  .filter ul {
-
-    list-style-type: none;
-    display: flex;
-    flex-wrap: wrap;
+#filters {
     
+  display: flex;
+  align-items: center;
+}
+
+
+  
+  
+.filters {
+    margin-left: 1.25rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1.875rem;
+    margin-bottom: 1.875rem;
+    margin-left: 1.25rem;
    
-  
   }
-  
-  .filter li{
 
-  
-    margin-right: 30px;
+  .logo_filters {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.0625rem;
+    color: blue;
+    font-size: 1.25rem;
+    background-color: #DEEBFF;
+    width: 1.25rem;
+    height: 1.rem;
+    border-radius: 1.875rem 1.875rem 1.875rem 1.875rem;
+
+  }
+
+  #logo_info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 1.25rem;
+    padding: 0.8rem;
+    color: blue;
+    width: 0.5rem;
+    height: 0.5rem;
+    border-radius: 1.2rem 1.2rem 1.2rem 1.2rem;
     border: 2px solid #F2F2F2;
-    border-radius: 50px;
-    padding-right: 2em ;
-    width:auto;
-    height:auto;
+}
 
+.info {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.infos {
+  margin-left: 1.2rem;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+}
+
+ h3 {
+      display: block;
+      font-size: 1.17em;
+      margin-block-start: 1em;
+      margin-block-end: 1em;
+      margin-inline-start: 0px;
+      margin-inline-end: 0px;
+      font-weight: bold;
   }
+   
 
-  
-
-  .filter h3{
-
-    margin-right:100px
+  .box {
+    display: flex;
+    justify-content: space-around;
+    width: 60%;
   }
   
-  
- .filter i.fas {
 
+
+  .box a:visited {
+    color: black;
+}
+
+.box a {
+  text-decoration: none;
+  color: black;
+}
+.box_filters {
+  display: flex;
+  align-items: center;
+  border-radius: 1.875rem 1.875rem 1.875rem 1.875rem;
+  border: 2px solid #F2F2F2;
+}
+  
+.logo_filters {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1.0625rem;
+  color: blue;
+  font-size: 1.25rem;
+  background-color: #DEEBFF;
+  width: 1.25rem;
+  height: 1.25rem;
+  border-radius: 1.875rem 1.875rem 1.875rem 1.875rem;
+}
+
+h3, p, a {
+  font-family: 'raleway', Arial, serif;
+  font-size: 0.875rem;
+}
+
+a {
+  background-color: transparent;
+}
+
+ 
+
+.fa, .fas {
+    font-weight: 900;
+}
+
+
+.fa, .far, .fas {
+  font-family: "Font Awesome 5 Free";
+}
+
+.fa, .fab, .fad, .fal, .far, .fas {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
   display: inline-block;
-  border-radius: 60px;
-  box-shadow: 0px 0px 2px ;
-  padding: 1rem;
-  color : #0065FC;
-  background-color:  #DEEBFF;
-  
-
-  
-
- }
-
- .info i.fas {
-  color: #0065FC;
-  
-
- }
-
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+}
 
 
   
@@ -166,9 +277,11 @@ input {
    
  }
  
+ .option {
+  margin-left: 1.25rem;
+  margin-right: 1.25rem;
+}
 
-
-  
 
  .enligne {
 
@@ -199,8 +312,6 @@ article img {
   height: 120px;
   object-fit: cover;
   
-
-
 }
 
 
@@ -237,14 +348,13 @@ article .texte i {
   border: 2px solid white;
   width: 280px;
   margin: 20px;
-  
   box-shadow: 0 0 14px black;
 }
  
 .populaires article img {
 
   border-radius: 25px 0px 0px 25px;
-  height: 100%;
+  
   width: 120px;
 }
 
