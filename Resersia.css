@@ -1,20 +1,11 @@
-#conteneur 
-{
-
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-	justify-content: space-between;
-
-
-
-}
 
 
 nav {
-  display: block;
+  display: flex;
+  padding: 0 1rem;
+  align-items: center;
+  justify-content: space-between;
 
-  margin-left: auto;
 }
 
 
@@ -22,23 +13,18 @@ nav ul
 {
 	list-style-type: none;
   display: flex;
+  margin-left: auto;
   
 
 }
 
-ul {
 
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  padding-inline-start: 40px;
-}
 
 .inscription a {
   color: #0065FC;
   font-weight: bold;
   text-decoration: none;
+  
 }
 nav li
 
@@ -48,10 +34,7 @@ nav li
 
 }
 
-li {
-  display: list-item;
-  text-align: -webkit-match-parent;
-}
+
 
 
 
@@ -139,6 +122,7 @@ input {
     margin-top: 1.875rem;
     margin-bottom: 1.875rem;
     margin-left: 1.25rem;
+    flex-wrap: wrap;
    
   }
 
@@ -201,8 +185,8 @@ p {
 
   .box {
     display: flex;
-    justify-content: space-around;
-    width: 60%;
+    
+    flex-wrap: wrap;
   }
   
 
@@ -214,6 +198,7 @@ p {
 .box a {
   text-decoration: none;
   color: black;
+  margin: 0 2rem;
 }
 .box_filters {
   display: flex;
@@ -323,6 +308,7 @@ article img {
   border: 2px solid white;
   width: 240px;
   margin: 20px;
+  background-color: white;
   
   box-shadow: 0 0 14px black;
 }
@@ -349,6 +335,7 @@ article .texte i {
   width: 280px;
   margin: 20px;
   box-shadow: 0 0 14px black;
+  background-color: white;
 }
  
 .populaires article img {
@@ -376,7 +363,7 @@ background-color: white;
   border: 2px solid white;
   width: 240px;
   margin: 20px;
-  
+  background-color: white;
   box-shadow: 0 0 14px black;
 }
 
@@ -615,12 +602,16 @@ footer section li a {
 
 @media screen and (max-width: 375px)
 {
-  
+
+nav {
+
+  order :1
+}
       
 
 .herbegements article {
 
-  
+  width: 100%;
   flex-direction: column-reverse;
 }
 
