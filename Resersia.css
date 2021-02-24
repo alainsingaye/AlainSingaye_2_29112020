@@ -35,14 +35,14 @@ header nav ul {
   display: flex;
   margin-left: auto;
   align-items: center;
+  padding: 0;
 }
 
 .underline_1{
 
   border-top: solid;
   border-color: #0065FC;
-  padding: 0rem;
-
+  
   
 
 } 
@@ -55,6 +55,7 @@ header nav ul {
 
 header nav li {
   margin-right: 1.875rem;
+  padding : 1rem;
 }
 
 header nav a {
@@ -433,6 +434,11 @@ footer section li a {
   .enligne {
     flex-direction: column-reverse;
   }
+
+  .populaires {
+
+    
+  }
 }
 
 @media screen and (max-width: 1286px)
@@ -443,7 +449,7 @@ footer section li a {
 }
 
 
-@media screen and (max-width: 375px)
+@media screen and (max-width: 600px)
 {
 
   
@@ -454,6 +460,18 @@ footer section li a {
     align-items: center;
     justify-content: space-between;
     
+  }
+
+  header nav ul {
+    list-style-type: none;
+    display: flex;
+    margin-left: auto;
+    align-items: center;
+    padding: 0;
+    justify-content: space-around;
+    width: 100%;
+    text-align: center;
+
   }
 
   #filters {
@@ -469,56 +487,81 @@ footer section li a {
     align-items: center;
     justify-content: space-between;
     
+    
 }
  
- 
+.logo, .inscription {
+
+  order : 1;
+}
+
+header nav li {
+  margin: auto;
+}
 nav ul {
 
 
 
     display: flex;
-    flex-wrap:wrap;
     flex-direction: flex-end;
+    align-content: stretch;
+    margin : auto;
+    order : 2;
   
     
   
 }
 
+nav li {
+
+  width : 100%;
+  padding : 1rem;
+}
+ 
 .underline_1 {
 
   border-top: none;
   border-bottom: solid;
   border-color: #0065FC;
-  order: 2;
+  padding : 1rem;
+  
 }
 
 .underline_2 {
+  border-bottom: solid;
+  border-color: grey;
 
-  order: 3;
+  
 }
   .container2 {
     display: flex;
     flex-wrap: wrap;
+    padding : 1rem;
     
+}
+nav {
+
+ 
 }
 
 .herbegements {
 
 
   margin-top: 2rem;
+  margin-right: auto;
 }
 
-.herbegements .activites img {
+.herbegements article, .activites article{
 
-  height: 100px;
+  width : auto;
 }
 
-.port article img {
-  height: 100px;
+.herbegements img, .activites img {
+  height: 140px !important;
+  object-fit: cover;
+ 
 }
-.parc article img {
-  height: 100px;
-}
+
 
 
 .herbegements, .populaires, .activites {
