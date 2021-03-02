@@ -429,17 +429,6 @@ footer section li a {
   }
 }
 
-@media screen and (max-width: 1099px)
-{
-  .enligne {
-    flex-direction: column-reverse;
-  }
-
-  .populaires {
-
-    
-  }
-}
 
 @media screen and (max-width: 1286px)
 {
