@@ -152,13 +152,7 @@ input {
   margin-left: 1.2rem;
 }
 
-p {
-  display: block;
-  margin-block-start: 1em;
-  margin-block-end: 1em;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
+
 
 h3 {
   display: block;
@@ -501,7 +495,6 @@ nav ul {
 
 
     display: flex;
-    flex-direction: flex-end;
     align-content: stretch;
     margin : auto;
     order : 2;
